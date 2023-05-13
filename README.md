@@ -29,7 +29,8 @@ All integers are in decimal.
 - You will need a Linux C development environment
 - Clone the project into your working environment 
 
-### Compile the program
+## Running the program
+#### Compile the program
 - Open the project folder in your integrated terminal environment 
 - A make file has been provided to compile all the files. Run the make file using the following command
 ```
