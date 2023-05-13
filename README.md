@@ -35,4 +35,35 @@ All integers are in decimal.
 ```
 make
 ```
-- 
+#### Encoding a message into an image
+When encoding, the program should be invoked as:
+```
+./steg e red.ppm>out.ppm 
+```
+Where "e" starts encode mode. After running this the program must now prompt for a message to encode, and output the new image to stdout (in this case we have redirected it to a file).
+
+#### Decoding a message from a file
+To decode the text, the program will compare the new image with the old image, and extract characters from the new one where it differs from the old one
+When decoding, the program should be invoked as:
+```
+./steg d red.ppm out.ppm 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
